@@ -1,0 +1,22 @@
+
+loadTable(size,c)
+a = new array of given size 
+for i = 0 to n-1 d0
+h = hash(c[i])
+if(a[h] is empty) then
+ a[h] = new limked list
+add c[i] to a[h]
+return a 
+end
+
+
+search (a,t)
+h = hash(t)
+list = a[h]
+if(list is empty _ then
+ return false 
+if(list contains t) then
+ return true
+return false
+end
+

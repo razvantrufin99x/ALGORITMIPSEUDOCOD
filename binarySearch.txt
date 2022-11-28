@@ -1,0 +1,13 @@
+search (a,t)
+low = 0 
+higth = n-1
+while(low <= hight) do
+ix = (low + high)/2
+if(t=a[ix] then
+retun true
+else if t<a[ix] _ then
+high = ix - 1
+else low = ix + 1
+return false
+end
+

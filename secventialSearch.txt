@@ -1,0 +1,16 @@
+search(a,t)
+ for i = 0 to n-1 do
+   if(a[i] = t) then
+  return true
+ return false
+end
+
+search(c,t)
+iter = c.begin()
+whle(iter!=c.end()) do
+e = next elemet from iter
+if(e=t) then
+ return true
+return false
+end
+

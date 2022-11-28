@@ -1,0 +1,24 @@
+
+sort(a)
+ quickSort(a,0,n-1)
+end
+
+quickSort(a,left,right)
+ if(left < right) then
+ pi = partiotin(a,left,right)
+ quickSort(a,left,pi-1)
+ quickSort(a,pi+1,right)
+end
+
+partition(a,left,right)
+ p=select pivot in a[left,right]
+swap a[p] and a[right]
+store = left
+ for i = left to right - 1 do 
+ if (a[i] < a[right] then
+ swap a[i] and a[store]
+ store++
+swap a[store] and a[right]
+return store
+end
+

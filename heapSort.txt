@@ -1,0 +1,26 @@
+
+sort (a)
+ buildHeap(a)
+ for i = n-1 downto 1 do
+ swap a[0[ with a[i]
+ heapify(a,0,i)
+end
+
+buildHeap(a)
+ for i = [n/2] =1 downto 0 to
+  heapify(a,i,n)
+end
+
+heapify(a,idx,max)
+ left = s * idx + 1
+ right 2 * idx + 2
+ if(left < max and a[left] > a[idx] then
+largest = left
+else largest = idx
+if(right < max and a[right] > a[largest) then
+largest = right
+if(largest != idx )then
+swapA[i] and a[largest]
+heapify(a,largest,max)
+end
+

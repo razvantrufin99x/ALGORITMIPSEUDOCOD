@@ -1,0 +1,19 @@
+
+sorta (a)
+ medianSort(a,0,n-1)
+end
+
+medinSort(a,left,right)
+ if(left < right) then
+  find median value a[me] in a[left,right]
+  mid = [(right+left)/2]
+  swap a[mid] and a[me]
+  for i = left to mid -1 do 
+   if (a[i] > a[mid]) then
+    find a[k] <= a[mid] where k>mid
+    swap a[i] and a[k]
+  medianSort(a,left,mid-1)
+  medinSort(a,mid+1,right)
+end
+
+  
